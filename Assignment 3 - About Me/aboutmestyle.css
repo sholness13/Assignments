@@ -1,0 +1,13 @@
+hr {
+		border: none;
+		height: 5px;
+		background-color: black;
+	}
+h1 {
+		text-align: center;
+		color: blue;
+}
+img {
+		float: right;
+}
+#middle {width: 80px}
