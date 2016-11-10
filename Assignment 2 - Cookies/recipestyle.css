@@ -1,0 +1,12 @@
+		body{
+			background-color: #FFE;
+			border-style: solid;
+			border-color: black;
+			margin: 0;
+		}
+		#nutrition{
+			color: #887;
+		}
+		a{
+			color: #900;
+		}
