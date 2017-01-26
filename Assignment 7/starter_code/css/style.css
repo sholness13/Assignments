@@ -80,7 +80,6 @@ header {
 header .logo {
   color: #fff;
   float: left;
-  width: 100%
 }
 
 header nav {
@@ -289,17 +288,23 @@ footer p {
   color: #fff;
   font-weight: 600;
 }
-
+#fa {
+  display: none;
+  float: right;
+}
 @media screen and (max-width: 768px){
-  .main_item{
-    48%
+  #posts{
+  width: 100%;
   }
-
-  @media screen and (max-width: 480px){
-  .container{
-    35%
+  #sidebar{
     width: 100%;
   }
+  #fa {
+    display: inline;
+    color: white;
+    padding-right: 50px;  }
+  nav {
+    display: none;
+  }
 }
-
 
